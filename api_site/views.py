@@ -36,7 +36,3 @@ def testCreateSingular(request):
         return Response(serializer.data)
     else:
         return Response("Invalid Data")
-
-#checking to see if updates work
-#another check
-#yet another check
